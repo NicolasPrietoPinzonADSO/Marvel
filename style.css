@@ -97,11 +97,12 @@ header ul li a:hover
 .sci
 {
     position: absolute;
-    bottom: 30px;
-    right: 60px;
+    bottom: 60px;
+    right: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:30;
 }
 .sci h3
 {
@@ -111,6 +112,7 @@ header ul li a:hover
 }
 .sci li
 {
+    padding: 5px;
     list-style: none;
 }
 .sci li img 
